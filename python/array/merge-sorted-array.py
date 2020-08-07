@@ -48,17 +48,17 @@ class TestMethods(unittest.TestCase):
         self.assertEqual(merge(InputOneOne, len(InputOneTwo),
                                InputOneTwo, len(InputOneTwo)), OutputOne)
 
-    # def test_two(self):
-    #     self.assertEqual(merge(InputTwoOne, len(InputTwoTwo),
-    #                            InputTwoTwo, len(InputTwoTwo)), OutputTwo)
+    def test_two(self):
+        self.assertEqual(merge(InputTwoOne, len(InputTwoTwo),
+                               InputTwoTwo, len(InputTwoTwo)), OutputTwo)
 
-    # def test_three(self):
-    #     self.assertEqual(merge(InputThreeOne, len(InputThreeTwo),
-    #                            InputThreeTwo, len(InputThreeTwo)), OutputThree)
+    def test_three(self):
+        self.assertEqual(merge(InputThreeOne, len(InputThreeTwo),
+                               InputThreeTwo, len(InputThreeTwo)), OutputThree)
 
-    # def test_four(self):
-    #     self.assertEqual(merge(InputFourOne, len(InputFourTwo),
-    #                            InputFourTwo, len(InputFourTwo)), OutputFour)
+    def test_four(self):
+        self.assertEqual(merge(InputFourOne, len(InputFourTwo),
+                               InputFourTwo, len(InputFourTwo)), OutputFour)
 
 
 def merge(nums1: List[int], m: int, nums2: List[int], n: int) -> None:
